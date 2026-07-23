@@ -13,6 +13,13 @@ storage_parent = {
     account_tier             = "Standard"
     account_replication_type = "LRS"
   }
+  storage2 = {
+    storage_name             = "testkitijori"
+    rg_name                  = "dev-rg1"
+    location                 = "East US"
+    account_tier             = "Standard"
+    account_replication_type = "LRS"
+  }  
 }
 
 vnet_parent = {
